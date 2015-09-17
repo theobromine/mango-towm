@@ -3,7 +3,8 @@ public class Book
 {
    // INSTANCE FIELDS
    private String title;
-   private double price; 
+   private double price;
+   private double mileage;
    
    // CONSTRUCTORS
    public Book() 
@@ -38,5 +39,10 @@ public class Book
    {
       price = aPrice;
    }
+   public String toString()
+   {
+   	return "Book name: " + title + "\nPrice: " + price + "testing var: " + mileage;
+   }
+   
    
 }
